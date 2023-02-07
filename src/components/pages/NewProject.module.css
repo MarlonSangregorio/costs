@@ -2,6 +2,11 @@
   width: 450px;
   margin: 0 auto;
   padding: 3em;
+
+  background-image: url('../../img/rocket.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 15rem;
 }
 
 .newproject_container h1{
