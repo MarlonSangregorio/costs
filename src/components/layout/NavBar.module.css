@@ -1,0 +1,44 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #222;
+  padding: 1em;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.item {
+  margin-right: 2em;
+}
+
+.item a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+.item a:hover{
+
+  color: #FFBB33;
+  transition: 0.3s;
+  font-size: 1.24em;
+}
+
+.logo{
+  transition: 1s;
+}
+
+.logo:hover{
+  transition: 1s;
+  transform: scale(1.1) rotateY(6.28rad)
+}
+
+
+
+
+
+
