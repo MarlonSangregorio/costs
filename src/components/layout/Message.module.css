@@ -1,0 +1,38 @@
+.message{
+  width: 100%;
+
+  padding: 1em;
+  border: 1px solid #000;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2em;
+  border-radius: 5px;
+}
+
+.success{
+  color: #155724;
+  background-color: #D4EDDA;
+  border-color: #C3E6CB;
+
+  animation-name: env;
+  animation-delay: 3s;
+  animation-duration: 3s;
+
+}
+
+@keyframes env {
+  to{
+  transform:translateX(-15rem);
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  }
+}
+
+
+
+.error {
+  color: #721c24;
+  background-color: #F8D7DA;
+  border-color: #C3E6CB;
+}
